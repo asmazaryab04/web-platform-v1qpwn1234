@@ -20,13 +20,13 @@ body {
   background-color: #059191;
 }
 50% {
-  background-color: rgb(190, 152, 190);
+  background-color: rgb(219, 142, 165);
 }
 70% {
-  background-color: rgb(186, 189, 85);
+  background-color: rgb(163, 215, 228);
 }
 100% {   
-  background-color: rgba(155, 237, 211, 0.822);
+  background-color: rgba(239, 179, 245, 0.822);
 }
 
 }
@@ -41,7 +41,6 @@ border: #0f0f0f;
 
 .footer-clean {
 padding:10px;
-background-color:#8fdcd7;
 color:#fbf8f8;
 }
 
@@ -50,7 +49,15 @@ margin-top:0;
 margin-bottom:12px;
 font-weight:bold;
 font-size:16px;
+font-family: Karla, Helvetica, Arial, sans-serif;
+font-colour: white ;
+  font-size: small;
+  animation-name: backgroundcolour;
+  animation-duration: 30s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
 }
+
 .footer-clean ul {
 padding:0;
 list-style:none;
@@ -60,7 +67,6 @@ margin-bottom:0;
 }
 
 .footer-clean ul a {
-color:inherit;
 text-decoration:none;
 opacity:0.8;
 }
