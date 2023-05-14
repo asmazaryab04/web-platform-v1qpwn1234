@@ -2,9 +2,13 @@ body {
   width: auto;
   height: auto;
   margin: 0%;
-  background-color: hsl(180, 59%, 61%);
-  transition: 5s;
-  font-family: sans-serif;
+  margin: auto;
+  font-family: Karla, Helvetica, Arial, sans-serif;
+  font-size: small;
+  animation-name: backgroundcolour;
+  animation-duration: 30s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
   color: #ec0b0b;
 }
 
